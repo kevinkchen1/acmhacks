@@ -97,18 +97,17 @@
                     </form>
 
                     
-                          
-    
-                      
-                      
-            
-                    
-                    
-
+                
                       
                       <head>
                         <title>Fitness Tracker</title>
                         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                        <style>
+                            canvas {
+                              width: 200px;
+                              height: 200px;
+                            }
+                          </style>
                       </head>
                       <body>
                         <h1>Fitness Tracker</h1>
@@ -137,7 +136,7 @@
                               labels: ['Weight', 'Calories', 'Protein'],
                               datasets: [{
                                 label: 'Fitness Tracker Data',
-                                data: [75, 2000, 100],
+                                data: [0, 0, 0],
                                 backgroundColor: [
                                   'rgba(232, 90, 120, 1)',
                                   'rgba(30, 120, 165, 1)',
